@@ -15,18 +15,60 @@ const Contact = () => {
             believe a good place to live can make your life better.
           </span>
           <div className="flexColStart contactModes">
-            <div className="flexColStart row">
+            {/* first row */}
+            <div className="flexStart row">
               <div className="flexColStart mode">
                 <div className="flexStart">
                   <div className="flexCenter icon">
                     <MdCall size={25} />
                   </div>
                   <div className="flexColStart detail">
-                    <span>Call</span>
-                    <span>+1-9548215394</span>
+                    <span className="primaryText">Call</span>
+                    <span className="secondaryText">+1-9548215394</span>
                   </div>
                 </div>
                 <div className="flexCenter button">Call Now</div>
+              </div>
+              {/* second mode */}
+              <div className="flexColStart mode">
+                <div className="flexStart">
+                  <div className="flexCenter icon">
+                    <BsFillChatDotsFill size={25} />
+                  </div>
+                  <div className="flexColStart detail">
+                    <span className="primaryText">Chat</span>
+                    <span className="secondaryText">+1-9548215394</span>
+                  </div>
+                </div>
+                <div className="flexCenter button">Chat Now</div>
+              </div>
+            </div>
+            {/* second row */}
+            <div className="flexStart row">
+              <div className="flexColStart mode">
+                <div className="flexStart">
+                  <div className="flexCenter icon">
+                    <BsFillChatDotsFill size={25} />
+                  </div>
+                  <div className="flexColStart detail">
+                    <span className="primaryText">Video Call</span>
+                    <span className="secondaryText">+1-9548215394</span>
+                  </div>
+                </div>
+                <div className="flexCenter button">Video Call Now</div>
+              </div>
+              {/* forth mode */}
+              <div className="flexColStart mode">
+                <div className="flexStart">
+                  <div className="flexCenter icon">
+                    <HiChatBubbleBottomCenter size={25} />
+                  </div>
+                  <div className="flexColStart detail">
+                    <span className="primaryText">Message</span>
+                    <span className="secondaryText">+1-9548215394</span>
+                  </div>
+                </div>
+                <div className="flexCenter button">Message Now</div>
               </div>
             </div>
           </div>
